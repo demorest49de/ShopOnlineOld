@@ -6,14 +6,7 @@ body {
 }
 
 .article-general {
-    padding: 100px 0 90px 0;
-}
-a:visited {
-    color: #0e4080;
-}
-
-a:hover {
-    color: sandybrown;
+    padding: 100px 0 65px 0;
 }
 
 ul, ol {
@@ -23,7 +16,6 @@ ul, ol {
 .article-general__list {
     list-style: decimal;
     margin-bottom: 50px;
-    color: #0e4080;
 }
 
 .article-general__item {
@@ -40,13 +32,16 @@ ul, ol {
     margin-bottom: 10px;
 }
 
-.article-general__suede-shoes {
+.article-general__about-shoes {
     max-width: 1095px;
     margin-left: 0;
+}
+
+.article-general__text:not(:nth-last-child(1)) {
+    line-height: 1.5;
     margin-bottom: 50px;
 }
 
-.article-general__text:not(.text_last) {
-    line-height: 1.5;
-    margin-bottom: 50px;
+section{
+    padding: 25px 0;
 }
