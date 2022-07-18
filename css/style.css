@@ -35,7 +35,7 @@ ul, ol {
 .article-general__about-shoes {
     max-width: 1095px;
     margin-left: 0;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .article-general__text:not(:nth-last-child(1)) {
